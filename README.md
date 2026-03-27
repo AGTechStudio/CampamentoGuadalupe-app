@@ -31,8 +31,8 @@ Este proyecto demuestra capacidad para:
 - Adaptar tecnología a necesidades reales
 
 ![Inicio](screenshots/home_campamento.jpg)
-![Menu]([screenshots/menu_campamento.png](https://github.com/AGTechStudio/CampamentoGuadalupe-app/blob/main/screenshots/menu_campamento.jpg?raw=true))
-![Alumnos](screenshots/alumnos_campamento.png)
+![Menu](screenshots/menu_campamento.jpg)
+![Alumnos](screenshots/alumno_campamento.jpg)
 
 ## 👨‍💻 Autor
 Alejandro García
