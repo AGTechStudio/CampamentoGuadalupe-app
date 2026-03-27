@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta personalizada -->
+    <color name="verde_oscuro">#355E3B</color> <!-- Verde oscuro pastel -->
+    <color name="verde_medio">#669966</color> <!-- Verde medio -->
+    <color name="verde_claro">#E6F2E6</color> <!-- Fondo verde muy claro -->
+    <color name="marron">#A69F84</color> <!-- Marrón claro pastel -->
+    <color name="texto_oscuro">#4D4D33</color> <!-- Gris oscuro -->
+    <color name="fondo">#F5F5E6</color> <!-- Fondo general -->
+    <color name="verde_completo">#669966</color>
+    <color name="naranja_incompleto">#FFA500</color>
+
+</resources>

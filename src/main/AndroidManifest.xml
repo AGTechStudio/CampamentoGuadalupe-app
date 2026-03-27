@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CampamentoGuadalupe"
+        tools:targetApi="31">
+
+        <!-- Pantalla de Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Registro -->
+        <activity android:name=".RegisterActivity" android:exported="false"/>
+
+        <!-- Pantallas principales -->
+        <activity android:name=".CampamentoActivity" android:exported="false"/>
+        <activity android:name=".MainMenuActivity" android:exported="false"/>
+
+        <!-- Gestión de alumnos -->
+        <activity android:name=".AlumnosActivity" android:exported="false"/>
+        <activity android:name=".DetalleAlumnoActivity" android:exported="false"/>
+
+        <!-- Gestión de cuotas -->
+        <activity android:name=".CuotasActivity" android:exported="false"/>
+        <activity android:name=".DetallePagosActivity" android:exported="false"/>
+
+        <!-- Gestión de materiales -->
+        <activity android:name=".MaterialesActivity" android:exported="false"/>
+
+        <!-- Gestión de actividades -->
+        <activity android:name=".ActividadesActivity" android:exported="false"/>
+        <activity android:name=".DetalleActividadActivity" android:exported="false"/>
+
+        <!-- Rendición -->
+        <activity android:name=".RendicionActivity" android:exported="false"/>
+
+    </application>
+
+</manifest>
+
+

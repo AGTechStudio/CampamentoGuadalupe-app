@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#264d3c">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:src="@drawable/logo_campamento"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Logo Campamento Guadalupe" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tituloApp"-->
+<!--            android:text="Campamento Guadalupe"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#F5F5DC"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="8dp" />-->
+
+        <TextView
+            android:id="@+id/txtBienvenida"
+            android:text="¡Bienvenido!"
+            android:textSize="20sp"
+            android:textColor="#F5F5DC"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD"
+            android:fontFamily="sans-serif"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/password"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD"
+            android:fontFamily="sans-serif"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Iniciar sesión"
+            android:backgroundTint="#669966"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGoogleSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión con Google"
+            android:backgroundTint="#4285F4"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Registrarse"
+            android:backgroundTint="#A69F84"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
+
+
+

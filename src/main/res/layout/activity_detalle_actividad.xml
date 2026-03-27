@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6F2E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Detalle de Actividad"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:hint="Título"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtDescripcion"
+        android:hint="Descripción de la actividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:minLines="4"
+        android:gravity="top"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="Guardar"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:text="Volver"
+        android:backgroundTint="#FFA726"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+

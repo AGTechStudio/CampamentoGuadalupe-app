@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6F2E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Cuotas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="#4CAF50" />
+
+    <!-- Botón de Costo del Campamento -->
+    <Button
+        android:id="@+id/btnCostoCampamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Costo Campamento"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Listado de Cuotas -->
+    <ListView
+        android:id="@+id/listViewCuotas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"/>
+
+    <!-- Botón Volver -->
+<!--    <Button-->
+<!--        android:id="@+id/btnVolver"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Volver"-->
+<!--        android:backgroundTint="#FFA726"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+</LinearLayout>
+
+
+
+
