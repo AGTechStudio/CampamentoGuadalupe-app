@@ -33,6 +33,8 @@ Este proyecto demuestra capacidad para:
 ![Inicio](screenshots/home_campamento.jpg)
 ![Menu](screenshots/menu_campamento.jpg)
 ![Alumnos](screenshots/alumno_campamento.jpg)
+![Balance](screenshots/balance_campamento.jpg)
+
 
 ## 👨‍💻 Autor
 Alejandro García
