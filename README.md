@@ -30,5 +30,9 @@ Este proyecto demuestra capacidad para:
 - Diseñar apps funcionales desde cero
 - Adaptar tecnología a necesidades reales
 
+![Inicio](screenshots/home_campamento.png)
+![Menu](screenshots/menu_campamento.png)
+![Alumnos](screenshots/alumnos_campamento.png)
+
 ## 👨‍💻 Autor
 Alejandro García
