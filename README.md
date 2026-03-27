@@ -23,5 +23,11 @@ Digitalizar y simplificar la organización de actividades en campamentos, reempl
 ## 📌 Contexto real
 Aplicación desarrollada para uso real en un entorno de campamento religioso.
 
+## 💡 Valor del proyecto
+Este proyecto demuestra capacidad para:
+- Crear soluciones a medida
+- Diseñar apps funcionales desde cero
+- Adaptar tecnología a necesidades reales
+
 ## 👨‍💻 Autor
 Alejandro García
