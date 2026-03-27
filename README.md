@@ -1,5 +1,6 @@
 # Campamento Guadalupe App
 
+## 💡 Proyecto aplicado en contexto real
 Aplicación Android desarrollada para la gestión de actividades en un campamento educativo de todos los niveles. En colaboracion con Colegio Nuestra Señora de Guadalupe (Patricio Cullen 7397, Santa Fe, Argentina.).
 
 ## 🚀 Descripción
