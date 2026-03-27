@@ -30,7 +30,7 @@ Este proyecto demuestra capacidad para:
 - Diseñar apps funcionales desde cero
 - Adaptar tecnología a necesidades reales
 
-![Inicio]([screenshots/home_campamento.png](https://github.com/AGTechStudio/CampamentoGuadalupe-app/blob/main/screenshots/home_campamento.jpg?raw=true))
+![Inicio](screenshots/home_campamento.jpg)
 ![Menu]([screenshots/menu_campamento.png](https://github.com/AGTechStudio/CampamentoGuadalupe-app/blob/main/screenshots/menu_campamento.jpg?raw=true))
 ![Alumnos](screenshots/alumnos_campamento.png)
 
